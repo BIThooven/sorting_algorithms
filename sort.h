@@ -25,4 +25,5 @@ void swap_nodes(listint_t **head, listint_t *node1, listint_t *node2);
 void selection_sort(int *array, size_t size);
 int lomuto(int *array, int low, int high);
 void quick_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
 #endif
